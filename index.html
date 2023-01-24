@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Responsivo</title>
+    <title>Site_RenêFarias</title>
 
     <!-- link da fonte-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -35,7 +35,15 @@
         </ul>
         <p class="post">Feito por mim com html css e js</p>
     </nav>
-
+    <div class="share">
+        <a href="#" onclick="location.href='https://www.instagram.com/rene.farias_/'" class="fab fa-instagram"></a>
+        <a href="#" onclick="location.href='https://www.facebook.com/profile.php?id=10007699941987'" class="fab fa-facebook-f"></a>
+        <a href="#" onclick="location.href='https://www.linkedin.com/in/renefarias?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BA%2FBXKOXzSE%2BRCaDxENxVfQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile'" class="fab fa-linkedin"></a>
+        <a href="#" onclick="location.href='https://github.com/ReneFarias'" class="fab fa-github"></a>
+       <!-- <a href="#" class="fab fa-pinterest"></a>
+        <a href="#" class="fab fa-twitter"></a> -->
+    </div>
+        
 </header>
 
 
@@ -50,12 +58,31 @@
 <section class="home" id="home">
 
     <h3>Quem sou eu !</h3>
-    <h1>Sou <span>Rene Farias</span></h1>
+    <h1>Sou <span>Renê Farias</span></h1>
+    <h3 class="post">Eu sou um <span class="typing-text"></span></h3>
     <p>Graduando em Gestão de Serviços Jurídicos Notariais e de Registros, pela (UNIASSELVI), cursando ensino grau Técnico em Desenvolvimento de Sistemas pela ETEGEC (Escola Técnica Estadual Governador Eduardo Campos), formado como Técnico em Redes de Computadores, pela ETEGEC. Certificados e cursos realizados em instituições como IBM, Senai, Fundação Bradesco, ETEGEC e Microtek Informática. Buscando novas experiências e aprimoramento constante em TI, e agregando a área Jurídica, com foco ao Direito Cibernético.</p>
     <a href="#sobre"><button class="btn">sobre mim <i class="fas fa-user"></i></button></a>
+    <div class="share">
+        <a href="#" onclick="location.href='https://www.instagram.com/rene.farias_/'" class="fab fa-instagram"></a>
+        <a href="#" onclick="location.href='https://www.facebook.com/profile.php?id=10007699941987'" class="fab fa-facebook-f"></a>
+        <a href="#" onclick="location.href='https://www.linkedin.com/in/renefarias?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BA%2FBXKOXzSE%2BRCaDxENxVfQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile'" class="fab fa-linkedin"></a>
+        <a href="#" onclick="location.href='https://github.com/ReneFarias'" class="fab fa-github"></a>
+        <!-- <a href="#" class="fab fa-pinterest"></a>
+        <a href="#" class="fab fa-twitter"></a> -->
+    </div>
 </section>
 
 <!-- home fim da seção -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : ['web designer', 'front end developer', 'graphic designer', 'gestor juridico' ],
+        typeSpeed: 120,
+        loop:true
+    })
+</script>
 
 <!-- about começo da seção -->
 
@@ -71,7 +98,7 @@
         <h3> <span> Qualificação : </span> Dev </h3>
         <h3> <span> Área : </span> Front end </h3>
         <h3> <span> Linguas : </span> Português / Inglês básico</h3>
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        <a href="#" onclick="location.href='https://github.com/ReneFarias/site/raw/main/Profile%20novo%202021.pdf'"><button class="btn"> download Currículo <i class="fas fa-download"></i> </button></a>
     </div>
 
 <div class="counter">
@@ -112,42 +139,42 @@
         <i class="fas fa-graduation-cap"></i>
         <span>2021</span>
         <h3>Acadêmico em Gestão Juridica</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Controlar bancos de dados nos departamentos jurídicos do escritório; Organizar práticas para realização de acordos judiciais e extrajudiciais; Acessorar os departamentos jurídicos em suas principais atividades; Gerenciar pagamentos de custas processuais, emolumentos e despesas dos setores jurídicos.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2021</span>
         <h3>Técnico em Desenvolvimento de Sistemas</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Desenvolver e programar sistemas computacionais, de acordo com normas e padrões de qualidade, integridade e segurança da informação. Também realiza a manutenção de programas de computador, análise de dados e linguagem de programação.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2021</span>
         <h3>Qualificação Desenvolvedor Web</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Responsável por colocar em prática, através de códigos, o design de um site ou interface. Também projetar o visual de um site, desenvolvimento front-end implementa esse design através de códigos, como HTML, CSS e JavaScript.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2019</span>
         <h3>Técnico em Redes de Computadores</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Monta, configura e faz a manutenção de computadores em rede. Ele também realiza a instalação e a configuração de dispositivos de comunicação digital e de sistemas operacionais.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2018</span>
         <h3>Lógica de Programação</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Modo como se escrevem programas de computador através de uma sequência de passos para executar uma ou várias funções, sequências chamadas de algoritmo.</p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2016</span>
         <h3>Informática Básica</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut fugiat dolorem, corrupti, veritatis in consectetur id, omnis inventore temporibus vero molestias deleniti earum commodi voluptate rerum laudantium? Accusantium, officia.</p>
+        <p>Entre os conhecimentos da informática básica, podemos destacar o conhecimento das peças fundamentais dos computadores (hardware), funcionamentos de cabos, fios e conexões diversas, navegação em páginas da internet, utilização de softwares de edição de texto, tabelas, gráficos, cálculos, edição de vídeo e imagem, etc.</p>
     </div>
 
 </div>
@@ -207,9 +234,10 @@
 
     <div class="info">
         <h3> <i class="fas fa-envelope"></i> renefariasfeitosadasilva@gmail.com </h3>
-        <h3> <i class="fas fa-phone"></i> 81-90000-0000</h3>
-        <h3> <i class="fas fa-phone"></i> 81-90000-0000</h3>
+        <!-- <h3> <i class="fas fa-phone"></i> 81-90000-0000</h3>
+        <h3> <i class="fas fa-phone"></i> 81-90000-0000</h3> -->
         <h3> <i class="fas fa-map-marker-alt"></i> Pernambuco, São Bento do Una - Brasil - 55370-000. </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15782.971717833323!2d-36.45074032114274!3d-8.524320531220988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a9d75bf13650b5%3A0xb296a81584a5093d!2sS%C3%A3o%20Bento%20do%20Una%2C%20PE%2C%2055370-000!5e0!3m2!1spt-BR!2sbr!4v1674507685237!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 </div>
