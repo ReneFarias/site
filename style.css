@@ -201,7 +201,8 @@ header .share a:hover{
     text-transform: none;
 }
 /*.home .share{
-    position: absolute;
+    position: relative;
+    align-items: center;
     left: 50%; bottom: 1rem;
     transform: translateX(-50%);
     display: flex;
@@ -367,12 +368,15 @@ header .share a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2rem;
+    margin: 0.2rem;
 }
 
 .contato .row .content{
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
+    margin: 2rem;
 }
 
 .contato .row form{
@@ -406,6 +410,8 @@ header .share a:hover{
     color: #fff;
     font-size: 3rem;
     padding-bottom: 2rem;
+    padding: 2rem;
+    margin: 0.2rem;
 }
 
 .contato .row .content .info h3{
@@ -416,11 +422,15 @@ header .share a:hover{
     padding: 1rem 0;
     font-weight: normal;
     text-transform: none;
+    padding: 2rem;
+    margin: 0.2rem;
 }
 
 .contato .row .content .info h3 i{
     padding-right: 1rem;
     color: var(--yellow);
+    padding: 2rem 0;
+    margin: 0.2rem;
 }
 
 .top{
