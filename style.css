@@ -448,6 +448,38 @@ header .share a:hover{
 
 /* media queries */
 
+@media (max-height:650px){
+    header .user .post{
+        
+        font-size: 10px;
+  
+    }
+    header .user .name{
+        
+        font-size: 15px;
+  
+    }
+    header .user #img{
+        
+        width: 80px;
+        height: 80px;
+  
+    }
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding: 1rem 4rem;
+    }
+    header .navbar .link{
+        height: 23px;
+        font-size: 15px;
+        margin: 0.1;
+        padding: 0;
+    }
+}
+
 @media (max-width:1200px){
 
     html{
