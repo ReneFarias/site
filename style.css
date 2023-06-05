@@ -359,8 +359,17 @@ header .share a:hover{
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img{
+.portfolio .box-container .box:hover{
     transform: scale(1.2);
+}
+
+.portfolio .box-container h4{
+    background-color: cyan;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .contato .row{
